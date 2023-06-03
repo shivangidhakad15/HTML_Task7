@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <title>Task 7</title>
+</head>
+<style>
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 50px;
+}
+button{
+    background-color: rgb(228, 221, 221);
+}
+button:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+</style>
+<body>
+    <h1>Task 7</h1>
+    <div>
+        <form>
+            <label for="fn">Full Name: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
+            <input type="text" id="fn" name="fn" placeholder="Enter your name" />
+            <br><br>
+            <label for="username">Username: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" />
+            <br><br>
+            <label for="password">Password:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" />
+            <br><br>
+            <label for="re_password">Re Password: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </label>
+            <input type="password" id="re_password" name="re_password" placeholder="Re-enter your password" />
+            <br><br>
+            <label for="address">Address: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </label>
+            <input type="text" id="address" name="address" placeholder="Enter your address" />
+            <br><br>
+            <label for="age">Age: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
+            <input type="number" id="age" name="age" placeholder="Enter your age" />
+            <br><br>
+            <label for="gender">Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+            <select name="gender" required>
+                <option disabled selected value="">Choose your country</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <br><br>
+            <button>Save</button>
+        </form>
+    </div>
+</body>
